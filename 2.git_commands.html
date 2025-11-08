@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github and Commands</title>
+</head>
+<body>
+    <h2>Fundamentals</h2>
+    <p>Git is used to keep track of version control of an application while we are workign on it and releasing different features. We can push and pull code easily from or IDE</p>
+    <p>Why we use it:</p>
+    <ol>
+        <li>Git Usage Benefits</li>
+        <li>Version control</li>
+        <li>Collaboration</li>
+        <li>Cloud model</li>
+        <li>Tracking changes </li>
+        <li>Code recovery</li>
+    </ol>
+    <p>We first need to download it on our computer from https://git-scm.com/downloads. This iwl ldownload git application on our computer it has some specifics which you need to follow from online tutorials while installing it. </p>
+    <h3>Git supported by many applications</h3>
+    <ol>
+        <li>GitHub</li>
+        <li>BitBucket</li>
+        <li>GitLabs</li>
+        <li>GitPod</li>
+    </ol>
+    <p>But we will use Github here. Beacuse its prominient and free to use for public repositories. Repositories are chambers where we upload code and maintain version hostory to restore and track as per the changes we made. We can add multiple repositires for multiple applcations, in free account we need to create a publically accesible repository. You can add a readme file document as well. it has .gitignore where we can add some files in the VScode project folder but we dont wnat to push them to the gihub repository we can mention them in .gitignore file. You can add licese as well. Whatever we make changes we basically commit the changes. </p>
+    <ol>
+        <li>First downlaod Git in computer from https://git-scm.com/downloads.</li>
+        <li>Create an Account in Github with you email</li>
+        <li>Then setup GIt with some tutorial</li>
+    </ol>
+
+    <h3>Running Git in a Project</h3>
+    <p>If you are running git for the first time then in terminal of you system you need to run a command.  </p>
+
+    <h3>Lets Take a Look at Steps and Commands</h3>
+    <ol>
+        <li>Installing Git SCM on windows with visual studio as default editor. Then you can run in terminal cmd or powershell</li>
+        <li>Connecting Accounts from here to github ( to be done 1 time only to configure git in system)
+            <ol>
+                <li>git config --global user.name "dhillongeetdev"</li>
+                <li>git config --global user.email "dhillongeetdev@gmail.com"</li>
+            </ol>   
+        </li>
+        <li>Initializing a folder with git in windows and connecting with the right repository
+            <ol>
+                <li>git init (run in the same folder you want to comit git in)</li>
+                <li>git remote add origin "https://github.com/dhillongeetdev/geetnew.git" ( Code>Local>Https in github account)</li>
+            </ol>
+        </li>
+
+        <li>Pull Request ( to pull data from git hub to computer from a branch)
+            <ol>
+                <li>git pull origin main ( main is the branch name)</li>
+            </ol>
+        </li>
+
+        <li>Push from computer to github in a branch
+            <ol>
+                <li>git status ( to check what is pending)</li>
+                <li>git add . (. is for all files, i can write file names here 1 after the other)</li>
+                <li>git status</li>
+                <li>git commit -m "any message here"</li>
+                <li>git push</li>
+            </ol>    
+        </li>
+        <li>creating a new branch 
+            <ol>
+                <li>git checkout -b "day1Branch" (day1Branch can be replaced by the new branch name you want to create)</li>
+            </ol>
+        </li>
+        <li>switching to old branches
+            <ol>
+                <li>git checkout "main" (branch name)</li>
+            </ol>
+        </li>
+        <li>Cloning a project
+            <ol>
+                <li>git clone https://github.com/dhillongeetdev/geetnew.git ( the url from code>local>https and the clone you need to open the folder where you want to clone this github branch to the computer folder, so in the computer folder open cmd and use this command)</li>
+            </ol>
+        </li>
+    </ol>
+
+
+</body>
+</html>
